@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>写博客 | Gridea</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://recall30.github.io/favicon.ico?v=1722760083313">
+<link rel="stylesheet" href="https://recall30.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="对于写博客这件事，我思考了一段时间。在我看来，我写的博客，不是无病呻吟，就是毫无营养的，纯抒情的。
+搭一个博客网站，我的耐心都快消耗完。跟着网上学，用git，node，做出一个hexo博客网站，
+但是，在最开始安装hexo的时候，npm不管..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://recall30.github.io">
+        <img src="https://recall30.github.io/images/avatar.png?v=1722760083313" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://recall30.github.io/post/writer" class="site-nav">
+            作者
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://recall30.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">写博客</h2>
+            <div class="post-date">2024-07-27</div>
+            
+            <div class="post-content" v-pre>
+              <p>对于写博客这件事，我思考了一段时间。在我看来，我写的博客，不是无病呻吟，就是毫无营养的，纯抒情的。<br>
+搭一个博客网站，我的耐心都快消耗完。跟着网上学，用git，node，做出一个hexo博客网站，<br>
+但是，在最开始安装hexo的时候，npm不管怎么弄都报错，下载不了。用来写博客的托管博客的github pages早已经做好，但是在验证ssh公钥又出现问题。Gridea，怎么配置都说链接失败，填的都对，就是不行。<br>
+但Ender帮我搭了一个网站，所以，我才写下这篇文章。<br>
+我的作文水平不算好，所以我也感觉写出来的文章也不算好。自我感觉是挺散乱的，没有规律，修辞手法。</p>
+<p>写到这吧，拜拜</p>
+
+            </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
